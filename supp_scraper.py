@@ -143,6 +143,6 @@ def filter_SupCategory_name(df_all_supl_prod: pd.DataFrame, supl_name: str):
 
 def export_df_to_csv(df: pd.DataFrame, name_csv: str):
     df.to_csv(name_csv+".csv", index=False)
-    message = "File " + name_csv + ".csv created successfully!"
+    message = "File '" + name_csv + ".csv' created successfully!"
     print(message)
     return
